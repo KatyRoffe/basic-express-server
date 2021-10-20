@@ -11,8 +11,13 @@ Author: Katy Roffe
 * To create and deploy a standards compliant Express server prior to bringing in an API.
 
 ## Deployment Link
+[Heroku Link](https://kroffe-basic-express-server.herokuapp.com/)\
+[Original PR Link for grading purposes](https://github.com/KatyRoffe/basic-express-server/pull/1)
 
 ## UML
+
+![UML Image](./images/basic-server-express-UML.PNG)
+
 
 ## Routes
 
