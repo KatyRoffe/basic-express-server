@@ -1,0 +1,26 @@
+{
+  "name": "basic-express-serverv2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --verbose --coverage"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KatyRoffe/basic-express-serverv2.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KatyRoffe/basic-express-serverv2/issues"
+  },
+  "homepage": "https://github.com/KatyRoffe/basic-express-serverv2#readme",
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "jest": "^27.3.1",
+    "supertest": "^6.1.6"
+  }
+}
