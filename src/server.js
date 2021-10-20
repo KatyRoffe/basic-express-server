@@ -10,8 +10,8 @@ const app = express();
 app.use(logger);
 
 
-app.get('/person', (request, response) => {
-    response.status(200).send({ 'name': `${request.query.name}` });
+app.get('/person', validator, (request, response) => {
+  response.status(200).send({ 'name': `${request.query.name}` });
 });
 
 
@@ -19,9 +19,9 @@ app.use(error404);
 app.use(error500);
 
 const start = (PORT) => {
-    app.listen(PORT, () => {
-        console.log(`Running on PORT ${PORT} `)
-    });
-}
+  app.listen(PORT, () => {
+    console.log(`Running on PORT ${PORT} `);
+  });
+};
 
 module.exports = {start, app};
